@@ -7,10 +7,6 @@ public class MyList<T> {
     public MyList() {
     }
 
-    public MyList(int len) {
-        mass = (T[]) new Object[len];
-    }
-
     public MyList(T[] mass) {
         this.mass = mass;
         curLen = mass.length;
